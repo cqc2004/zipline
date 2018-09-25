@@ -157,7 +157,7 @@ def build_lookup_generic_cases(asset_finder_type):
     root_symbols = pd.DataFrame({
         'root_symbol': ['FO'],
         'root_symbol_id': [1],
-        'exchange': ['CME'],
+        'exchange': ['CMES'],
     })
 
     with tmp_assets_db(
