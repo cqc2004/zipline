@@ -184,9 +184,12 @@ class EquityCalendarDomain(Domain):
         )
 
 
-US_EQUITIES = EquityCalendarDomain(CountryCode.UNITED_STATES, 'NYSE')
-CA_EQUITIES = EquityCalendarDomain(CountryCode.CANADA, 'TSX')
-GB_EQUITIES = EquityCalendarDomain(CountryCode.UNITED_KINGDOM, 'LSE')
+US_EQUITIES = EquityCalendarDomain(CountryCode.UNITED_STATES, 'XNYS')
+CA_EQUITIES = EquityCalendarDomain(CountryCode.CANADA, 'XTSE')
+CH_EQUITIES = EquityCalendarDomain(CountryCode.SWITZERLAND, 'XSWX')
+DE_EQUITIES = EquityCalendarDomain(CountryCode.GERMANY, 'XFRA')
+GB_EQUITIES = EquityCalendarDomain(CountryCode.UNITED_KINGDOM, 'XLON')
+JP_EQUITIES = EquityCalendarDomain(CountryCode.JAPAN, 'XTKS')
 
 
 def infer_domain(terms):
