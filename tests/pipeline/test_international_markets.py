@@ -39,9 +39,9 @@ class WithInternationalDailyBarData(zf.WithAssetFinder):
     DAILY_BAR_LOOKBACK_DAYS = 0
 
     INTERNATIONAL_PRICING_STARTING_PRICES = {
-        'NYSE': 100,
-        'TSX': 50,
-        'LSE': 25,
+        'XNYS': 100,  # NYSE
+        'XTSE': 50,   # Toronto Stock Exchange
+        'XLON': 25,   # London Stock Exchange
     }
 
     @classmethod
